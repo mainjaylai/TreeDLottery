@@ -133,7 +133,7 @@ class guess1d extends base {
             case 0:
                 return 0;
             default:
-                return getWinnumber()[3 - guessnum];
+                return winmoney[3 - guessnum];
         }
     }
 }
